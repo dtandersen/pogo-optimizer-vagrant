@@ -9,7 +9,7 @@ This Vagrantfile is used by Vagrant to set up an [Arch Linux](https://www.archli
 ## How to use
 
 1. Download and install [Vagrant](https://www.vagrantup.com/). This also installs VirtualBox.
-1. Open a shell (e.g. ```cmd```) and use git to clone this repository. (Windows) If you don't know how to use git you can try (TortoiseGit)[https://tortoisegit.org/download/], which is a GUI for git.
+1. Open a shell (e.g. ```cmd```) and use git to clone this repository. (Windows) If you don't know how to use git you can try [TortoiseGit](https://tortoisegit.org/download/), which is a GUI for git.
 
         git clone https://github.com/dtandersen/pogo-optimizer-vagrant.git
 
