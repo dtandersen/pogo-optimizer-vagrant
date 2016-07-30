@@ -21,7 +21,7 @@ This Vagrantfile is used by Vagrant to set up an [Arch Linux](https://www.archli
 1. Wait for Vagrant to do its thing. Then go to [http://localhost:3000](http://localhost:3000) and verify that Pokémon GO Optimizer comes up.
 1. Ensure that the firewall of the server has ports TCP/3000 and TCP/8081 open. To verify, connect to the server (e.g., http://192.168.0.100:3000) from your phone or another computer in the house. (Windows) Run ```ipconfig``` on the server to find the internal IP.
 1. Follow the official instructions to [install the certificate on your phone](https://github.com/justinleewells/pogo-optimizer).
-1. Go to https://www.google.com on your phone. If this works then you should be good to launch Pokémon GO.
+1. Go to https://www.google.com on your phone to verify that the certificate works. Then Launch Pokémon GO.
 
 ## Tips
 
