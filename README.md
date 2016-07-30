@@ -4,19 +4,25 @@
 
 [Pokémon GO Optimizer](https://github.com/justinleewells/pogo-optimizer) is a proxy that intercepts traffic from the Pokémon GO app to discover the hidden IVs of Pokémon.
 
-This Vagrantfile sets up an [Arch Linux](https://www.archlinux.org/) virtual machine (VM) on [VirtualBox](https://www.virtualbox.org/wiki/Downloads). The VM is automatically configured to run Pokémon GO Optimizer. After it is complete Pokémon GO Optimizer is running at http://localhost:3000. 
+This Vagrantfile is used by Vagrant to set up an [Arch Linux](https://www.archlinux.org/) virtual machine (VM) on [VirtualBox](https://www.virtualbox.org/wiki/Downloads). The VM is automatically configured to run Pokémon GO Optimizer. This is probably the easiest way to get Pokémon GO Optimizer running if you aren't a software developer or sys admin.
 
 ## How to use
 
-1. Use git to clone this repository:
+1. Download and install [Vagrant](https://www.vagrantup.com/). This also installs VirtualBox.
+1. Open a shell (e.g. ```cmd```) and use git to clone this repository. (Windows) If you don't know how to use git you can try (TortoiseGit)[https://tortoisegit.org/download/], which is a GUI for git.
 
         git clone https://github.com/dtandersen/pogo-optimizer-vagrant.git
 
-1. Download and install [Vagrant](https://www.vagrantup.com/). This also installs VirtualBox.
 1. Launch the virtual machine:
 
+        cd pogo-optimizer-vagrant
         vagrant up
 
 1. Go to http://localhost:3000 to see if it is running.
-1. Ensure that the firewall of the computer has ports TCP/3000 and TCP/8081 open.
-1. Follow the directions to [install the certificate on your phone](https://github.com/justinleewells/pogo-optimizer).
+1. Ensure that the firewall of the server has ports TCP/3000 and TCP/8081 open. To verify, connect to the server from your phone or another computer in the house, e.g. http://192.168.0.100:3000. (Windows) Run ```ipconfig``` on the server to find the internal IP.
+1. Follow the official instructions to [install the certificate on your phone](https://github.com/justinleewells/pogo-optimizer).
+1. Go to https://www.google.com on your phone. If this works then you should be good to launch Pokémon GO.
+
+## Tips
+
+If you have multiple wifi networks, e.g. MyWifi and MyWifi_5G configure MyWifi to use the proxy. Switch back to MyWifi_5G when finished with Pokémon GO.
