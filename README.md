@@ -28,7 +28,7 @@ This Vagrantfile is used by Vagrant to set up an [Arch Linux](https://www.archli
 If you have multiple wifi networks, e.g., MyWifi and MyWifi_5G, configure MyWifi to use the proxy. Switch back to MyWifi_5G when finished with Pokémon GO.
 
 
-## Disclaimer
+## Legal
 
 All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. 
 
