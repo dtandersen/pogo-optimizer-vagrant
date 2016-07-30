@@ -30,4 +30,4 @@ If you have multiple wifi networks, e.g., MyWifi and MyWifi_5G, configure MyWifi
 
 ## Disclaimer
 
-Don't blame me if you get banned :)
+I'm not responsible if your account get banned.
